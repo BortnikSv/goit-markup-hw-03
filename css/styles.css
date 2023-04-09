@@ -159,7 +159,17 @@ body {
     cursor: pointer;
 }
 
+.features-list {
+    margin-top: 120px;
+}
+
+.feature-subtitle.first {
+    margin-top: 0;
+}
+
 .feature-subtitle {
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -169,6 +179,8 @@ body {
 }
 
 .feature-text {
+    margin-top: 0;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
