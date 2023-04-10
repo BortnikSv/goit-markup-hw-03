@@ -53,6 +53,18 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .page-header {
     border-bottom: 1px solid #e7e9fc 
@@ -120,14 +132,13 @@ img {
 }
 
 .main-address{
-    display: flex;
+    margin-left: auto;
 
     font-style: normal;
 }
 
 .tel-email {
     display: flex;
-    margin-left: 332px;
 }
 
 .tel-email-link {
@@ -197,7 +208,7 @@ img {
     color: var(--primary-text-color-theme-dark);
     background-color: var(--accent-color);
 
-    cursor: pointer
+    cursor: pointer;
 }
 
 .order-btn:hover,
