@@ -219,12 +219,9 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.feature-subtitle.first {
-    margin-top: 0;
-}
-
 .feature-subtitle {
     margin-bottom: 8px;
+    margin-top: 0;
 
     font-weight: 500;
     font-size: 20px;
@@ -290,7 +287,6 @@ img {
 
 .worker-card {
     width: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
 
     background-color: var(--main-background-color);
 }
@@ -321,6 +317,8 @@ img {
     padding-bottom: 32px;
     padding-right: 16px;
     padding-left: 16px;
+
+    border-radius: 0px 0px 4px 4px;
 }
 
 .page-footer {
